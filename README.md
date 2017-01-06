@@ -3,6 +3,10 @@
 This is a forked repo of the [jquery-match-height plugin](http://brm.io/jquery-match-height/). Allows file to be `require`'d in Browserify.
 
 ```
+npm install jquery-match-height-browserify --save-dev
+```
+
+```
 require('jquery-match-height-browserify');
 $('.el').matchHeight({
     // options
