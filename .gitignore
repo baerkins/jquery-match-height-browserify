@@ -1,3 +1,4 @@
 .idea
 node_modules
 private.conf.js
+npm-debug.log
