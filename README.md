@@ -1,3 +1,16 @@
+# jquery-match-height-borwserify #
+
+This is a forked repo of the [jquery-match-height plugin](http://brm.io/jquery-match-height/). Allows file to be `require`'d in Browserify.
+
+```
+require('jquery-match-height-browserify');
+$('.el').matchHeight({
+    // options
+})
+```
+
+See the [original repo](https://github.com/liabru/jquery-match-height) by [liabru](https://github.com/liabru) for options and details. Original `README` below.
+
 # jquery.matchHeight.js #
 
 > *matchHeight* makes the height of all selected elements exactly equal.  

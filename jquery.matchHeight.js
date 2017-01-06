@@ -4,19 +4,7 @@
 * License: MIT
 */
 
-;(function(factory) { // eslint-disable-line no-extra-semi
-    'use strict';
-    if (typeof define === 'function' && define.amd) {
-        // AMD
-        define(['jquery'], factory);
-    } else if (typeof module !== 'undefined' && module.exports) {
-        // CommonJS
-        module.exports = factory(require('jquery'));
-    } else {
-        // Global
-        factory(jQuery);
-    }
-})(function($) {
+;(function($, window, document) {
     /*
     *  internal
     */
@@ -382,4 +370,4 @@
         matchHeight._update(true, event);
     });
 
-});
+}(jQuery, window, document));
